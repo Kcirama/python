@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <title>Les bases du Python</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js" defer></script>
+    </head>
+
+    <body>
+
+        <div class="principal">
+
+            <div class="title centre gras">
+                <p class="title">PYTHON</p>
+            </div>
+
+            <h1 class="h1 centre">Les bases</h1>
+
+            <div class="ligne"></div>
+
+            <div class="texte">
+                <p class="p">Premièrement pour faire fonctionner un programme python, il faut un environnement virtuel comme pycharm et l'interpreteur python pour lire le code.</p>
+                
+                <p class="p ul">Les variables :</p>
+                <p class="p">Les variables sont un outil utilisé très régulièrement en programmation, elle permettent d'utiliser une même donnée à plusieurs endroits dans le programme et, si nécessaire, de modifier toutes ces données en une seule fois. Les variables permettent aussi de faire des opération sur des nombres :</p>
+                <img src="images/image1.jpg" class="imgs" id="img">
+                <p class="p">Ici, je définis la variable "a" à 1 puis je l'incrémente de 1.</p>
+
+                <p class="p ul">La fonction print :</p>
+                <p class="p">La fonction print sert à afficher du texte dans l'environement virtuel, elle est utile pour débugger un programme en affichant la valeur de variables.</p>
+                <img src="images/image2.jpg" class="imgs" id="img">
+
+                <p class="p ul">La fonction input :</p>
+                <p class="p">Ensuite, je vais parler de la fonction input, celle-ci sert à poser une question à l'utilisateur, c'est une fonction bloquante, elle stop le programme jusqu'à avoir une réponse. Et justement, les variables servent aussi à ça, récupérer et stocker le retour d'une fonction tel que input :</p>
+                <img src="images/image3.jpg" class="imgs" id="img">
+                <p class="p">Je rentre 6, la variable "a" stocke ma réponse.</p>
+                <img src="images/image4.jpg" class="imgs" id="img">
+                <p class="p">Puis le programme affiche la valeur de "a".</p>
+
+                <p class="p ul">Int et Str :</p>
+                <p class="p">Ce sont les deux types principaux de données, int (abréviation de integer) est un nombre entier et str (abréviation de string) est un chaine de caractère. On peut passer d'un état à l'autre en utilisant ces deux fonctions.</p>
+                <img src="images/image5.jpg" class="imgs" id="img">
+                <p class="p">Par exemple si on veut ajouter 1 au nombre entré, cette syntaxe ne fonctionnera pas car la réponse donnée à une fonction input est stockée en chaine de caractères, on ne peut donc pas ajouter 1 à une chaine de caractères.</p>
+                <img src="images/image6.jpg" class="imgs" id="img">
+                <p class="p">Il faut donc passer par une conversion à l'aide de int.</p>
+            
+                <p class="p ul">Les boucles :</p>
+                <p class="p">Il existe 2 types de boucles, les boucles while qui bouclent tant qu'une condition est remplie ou n'est pas remplie :</p>
+                <img src="images/image7.jpg" class="imgs" id="img">
+                <p class="p">Premièrement, on définit "a" sur 0, ensuite on crée un boucle while (pour mettre une instruction à l'intérieur d'une boucle, il faut utiliser un tab) qui s'éxécute tant que "a" est inférieur à 100 et une fois sorti de la boucle, on affiche "a".</p>
+                <img src="images/image8.jpg" class="imgs" id="img">
+                <p class="p">Cela fonctionne de la même manière si on met not devant la condition et qu'on inverse le signe : la boucle while s'execute tant que a n'est pas supérieur à 100.</p>
+                <p class="p">Il y a ensuite la boucle for qui répète un nombre de fois données des actions :</p>
+                <img src="images/image9.jpg" class="imgs" id="img">
+                <p class="p">Entre parenthèses dans la boucle, c'est le nombre de fois qu'il va faire les actions suivantes, ici il va répéter de 0 a nb_repetitions (exclu, c'est a dire que la boucle bouclera une fois de moins que nb_repetitions) soit 100 fois.</p>
+                
+                <p class="p ul">Les conditions :</p>
+                <p class="p">Les conditions servent a éxécuter une action seulement si une condition est remplie ou n'est pas remplie :</p>
+                <img src="images/image10.jpg" class="imgs" id="img">
+                <p class="p">Ici "a_int" est inférieur a 10 donc on lui ajoute 1.</p>
+                <img src="images/image11.jpg" class="imgs" id="img">
+                <p class="p">Et sinon, on lui retire 1.</p>
+
+                <div class="pfin">
+                    <p class="pfin centre ul">Merci d'avoir consulté mon site, c'est tout pour les bases de <a href="https://www.python.org/" target="_blank">python</a> !</p>
+                </div>
+                </div>
+                <p class="ul">Couleur de fond :</p>
+                <div class="centre">
+                    <button id="btn1">bleu</button>
+                    <button id="btn2">rouge</button>
+                    <button id="btn3">bleu clair</button>
+                    <button id="btn4">orange</button>
+                    <button id="btn5">rose</button>
+                    <button id="btn6">noir</button>
+                    <button id="btn7">jaune</button>
+                    <button id="btn8">vert</button>
+					<button id="btn9">violet</button>
+										<button id="btn10">turquoise</button>
+                </div>
+
+                <p class="ul">taille des images :</p>
+                <div class="centre">
+                    <button id="btn9">50%</button>
+                </div>
+        </div>
+
+    </body>
+</html>
