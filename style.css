@@ -86,7 +86,7 @@ p.title{
     margin-top: 25px;
     font-size: 30px;
 }
-
+/*
 @keyframes rotating {
     from {
       transform: rotate(0deg);
@@ -158,5 +158,5 @@ p.title{
     animation: p 1s infinite alternate;
   }
 
-
+*/
 
